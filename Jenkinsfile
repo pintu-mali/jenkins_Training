@@ -1,9 +1,10 @@
 pipeline {
 agent any
-
 stages{
-stage('SCM'){ 
+stage('SCM'){
+steps{
 echo "hello"
+}
 }
 }
 }
